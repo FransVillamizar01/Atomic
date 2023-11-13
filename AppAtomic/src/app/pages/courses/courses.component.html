@@ -1,0 +1,7 @@
+<app-main-layout>
+    <a (click)="goToCourses()" class="back-button custom-link"> ← Mis cursos</a>
+
+    <div class="course-list">
+        <app-course-card *ngFor="let course of courses" [course]="course" [showRegisterBtn]="false"></app-course-card>
+    </div>
+</app-main-layout>

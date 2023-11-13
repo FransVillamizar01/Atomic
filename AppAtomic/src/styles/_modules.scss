@@ -1,0 +1,180 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #8717f0;  
+}
+
+.header h1 {
+    color: white;
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Krub', sans-serif;
+    
+}
+
+.header nav a {
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-family: 'Krub', sans-serif;
+    font-size: 1.5rem;
+}
+
+.header button {
+    
+}
+/* styles.css (o el archivo CSS de tu componente) */
+
+/* Estilo para el contenedor course-list */
+.course-list {
+    padding: 3.85rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    grid-gap: 20px; /* Espacio entre los cuadrados */
+}
+
+  /* Estilo para cada cuadro (course-card) */
+.course-card {
+    border: 2px solid #ff33c2; /* Borde con el color deseado */
+    padding: 20px; /* Espaciado alrededor del cuadro */
+    text-align: center; /* Centra el contenido dentro del cuadro */
+    background-color: #F0F0F0; /* Color de fondo del cuadro */
+    color: #333; /* Color del texto dentro del cuadro */
+    border-radius: 2rem;
+}
+
+  /* Estilo para el botón de registro dentro del cuadro */
+.course-button {
+    background-color: #FF5733; /* Cambia #FF5733 al color de fondo deseado */
+    color: white; /* Color del texto en el botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+.register-button {
+    background-color: #646464; /* Color de fondo normal */
+    margin: 0.5rem;
+    color: white; /* Color del texto normal */
+    border: none; /* Sin borde normal */
+    padding: 10px 20px; /* Espaciado normal */
+    border-radius: 1rem;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+
+    /* Estilo para el hover del botón */
+    &:hover {
+      background-color: #d755ff; /* Color de fondo en hover */
+      /* Puedes ajustar el color y otros estilos según tus preferencias */
+    }
+}
+.nav-link {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #333; /* Color del enlace normal */
+    transition: color 0.3s; /* Transición suave de color */
+    }
+
+  /* Estilo para el enlace en estado de hover */
+.nav-link:hover {
+    color: #000000; /* Cambia el color del enlace en hover */
+    /* Puedes ajustar el color y otros estilos según tus preferencias */
+}
+
+.custom-link {
+    font-size: 24px; /* Tamaño de fuente más grande */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #FF5733; /* Color del enlace */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px 20px; /* Espaciado alrededor del enlace */
+    background-color: #F0F0F0; /* Color de fondo del enlace */
+    border: 2px solid #FF5733; /* Borde del enlace */
+    border-radius: 10px; /* Borde redondeado */
+    transition: all 0.3s; /* Transición suave para cambios de estilo */
+    display: inline-block; /* Cambia a elemento en línea bloque para centrarlo */
+    margin-top: 0px; /* Espacio superior para centrarlo verticalmente */
+    }
+
+  /* Estilo de hover para el enlace personalizado */
+.custom-link:hover {
+    background-color: #000000; /* Cambia el color de fondo en hover */
+    color: white; /* Cambia el color del texto en hover */
+}
+.custom-link {
+    font-size: 24px; /* Tamaño de fuente más grande */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #FF5733; /* Color del enlace */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px 20px; /* Espaciado alrededor del enlace */
+    background-color: #F0F0F0; /* Color de fondo del enlace */
+    border: 2px solid #FF5733; /* Borde del enlace */
+    border-radius: 10px; /* Borde redondeado */
+    transition: all 0.3s; /* Transición suave para cambios de estilo */
+    display: inline-block; /* Cambia a elemento en línea bloque para centrarlo */
+    margin-top: 20px; /* Espacio superior para centrarlo verticalmente */
+}
+
+  /* Estilo de hover para el enlace de regreso personalizado */
+.custom-link:hover {
+    background-color: #FF5733; /* Cambia el color de fondo en hover */
+    color: white; /* Cambia el color del texto en hover */
+}
+
+  /* Estilo para el formulario de registro */
+.registration-form {
+    background-color: #F0F0F0;
+    border: 2px solid #FF5733;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 190px; /* Agrega margen superior para separar del footer */
+}
+
+  /* Estilo para el botón de registro */
+.register-button {
+    background-color: #444444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;   
+    margin: 0 auto; /* Centra el botón horizontalmente */
+}
+
+  /* Estilo de hover para el botón de registro */
+.register-button:hover {
+    background-color: #FF8855; /* Cambia el color de fondo en hover */
+    /* Puedes ajustar el color y otros estilos según tus preferencias */
+}
+
+  /* Estilo para los elementos del formulario */
+.form-group {
+    margin-bottom: 10px; /* Espacio entre elementos del formulario */
+}
+
+  /* Estilo para las etiquetas del formulario */
+.form-group label {
+    display: inline-block;
+    width: 100px; /* Ancho fijo para alinear etiquetas */
+}
+
+  /* Estilo para los campos de entrada del formulario */
+.form-group input {
+    width: 80%; /* Hace que los campos de entrada ocupen todo el ancho disponible */
+    padding: 8px; /* Espaciado interno */
+}
+.footer {
+    padding: 1rem;
+    background-color: #8717f0; 
+    color: white;
+    text-align: center;
+    font-family: 'Krub', sans-serif;
+    font-size: 1rem;
+}
+
+.footer span {
+    font-size: 1.1rem;
+}
+
+
